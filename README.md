@@ -8,15 +8,7 @@ To write a program to implement the SVM For Spam Mail Detection.
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Get the independent variable X and dependent variable Y.
-2.Calculate the mean of the X -values and the mean of the Y -values.
-3.Find the slope m of the line of best fit using the formula.
-<img width="350" height="192" alt="Screenshot 2026-05-11 093010" src="https://github.com/user-attachments/assets/5b33e16c-0e51-4342-a9d4-a8b5c81eeb69" />
-
-4.commpute the y -intercept of the line by using the formula:
-<img width="312" height="62" alt="Screenshot 2026-05-11 093018" src="https://github.com/user-attachments/assets/2923a6c8-6c2c-43fd-91e7-87e851af7d36" />
-
-5.Use the slope m and the y -intercept to form the equation of the line. 6. Obtain the straight line equation Y=mX+b and plot the scatterplot.
+1.Start the program. 2.Load the spam mail dataset. 3.Clean and preprocess the email text. 4.Convert text data into numerical values using TF-IDF. 5.Split the dataset into training and testing data. 6.Train the SVM classifier using training data. 7.Predict spam or non-spam emails using test data. 8.Calculate the accuracy of the model. 9.Stop the program.
 
 ## Program:
 ```
